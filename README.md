@@ -43,10 +43,6 @@ python3 redir_trick.py --urls https.txt
 ```python
 python3 redir_trick.py --urls https.txt --sign \\/,/,//
 ```
-- Determine redirect domain/ip
-```python
-python3 redir_trick.py --urls https.txt --redirect google.com
-```
 - Determine threads and timeout
 ```python
 python3 redir_trick.py --urls https.txt --threads 200 --timeout 10
