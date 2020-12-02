@@ -83,7 +83,7 @@ B = '\033[1m' 	 # Bold
 u = '\033[4m' 	 # underLine
 n = '\033[5;91m' # notic
 
-HEADER = g+' redir_trick testing open redirect vulnerability to each http url \n Test: ['+str(urls_lines)+'] url Please wait some time.\n'+r+' Developer By: '+n+ '@Abdulrahman-Kamel\n\n'+e
+HEADER = g+' redir_trick testing open redirect vulnerability to each http url \n Test: ['+str(urls_lines)+'] url Please wait some time.\n'+r+' Developer By: '+n+ 'Abdulrahman-Kamel\n\n'+e
 FOOTER = r+'\t'*5+'Terminated\n'+e
 print(HEADER)
 
