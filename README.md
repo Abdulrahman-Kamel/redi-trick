@@ -7,12 +7,8 @@ the tool have argument -m, --multiple , this arg make many testing ex.. brutefor
 
 ## Installation
 i am make code to auto install modules only must have modules [importlib, pip] then tool will install all modules automatically but if found any error you can install all modules manually
-```console
-svn checkout https://github.com/Abdulrahman-Kamel/mini-hacks/trunk/redir-trick
-pip3 install importlib pip
-```
- if append modules install error use: sudo pip3 install -r requirements.txt
 
+if append modules install error use: sudo pip3 install -r requirements.txt
 or install manually
 ```bash
 pip3 install requests
