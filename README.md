@@ -41,7 +41,7 @@ python3 redir_trick.py --urls https.txt
 ```
 - Put multiple signs  
 ```python
-python3 redir_trick.py --urls https.txt --sign @,/
+python3 redir_trick.py --urls https.txt --sign \\/,/,//
 ```
 - Determine redirect domain/ip
 ```python
