@@ -1,22 +1,13 @@
 ## About script
-this tool test open redirect vulnerability to each http subdomain via signs EX.. [/, //,\\/, etc..] <br> 
-use any tool to know what is subdomains which run http/https EX.. httprobe or any Tec. <br>
+this tool test open redirect vulnerability via signs EX.. [/, //,\\/, etc..] <br> 
 cat subdomains | httprobe > https.txt | use tool on this file [https.txt] <br>
-the tool will put the sign and request all urls , when found redirect will alert you. <br>
-the tool have argument -m, --multiple , this arg make many testing ex.. bruteforce parameters and try many signs
+the tool will put the sign and send request , when found redirect will alert you. <br>
+the tool have argument -m, --multiple , this arg make many testing , some testing is bruteforce parameters and try many signs
 
 ## Installation
-i am make code to auto install modules only must have modules [importlib, pip] then tool will install all modules automatically but if found any error you can install all modules manually
+i am make code to auto install modules only must have modules ``` importlib , pip ``` then tool will install all modules automatically <br>
+if found any error install from requirements.txt => Usage: sudo pip3 install -r requirements.txt
 
-if append modules install error use: sudo pip3 install -r requirements.txt
-or install manually
-```bash
-pip3 install requests
-pip3 install argparse
-pip3 install urllib3
-pip3 install futures
-pip3 install sys
-```
 ## Usage
 short arg     | long arg      | Description
 ------------- | ------------- |-------------
