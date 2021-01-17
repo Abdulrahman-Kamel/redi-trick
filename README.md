@@ -5,8 +5,10 @@ the tool will put the sign and send request , when found redirect will alert you
 the tool have argument -m, --multiple , this arg make many testing , some testing is bruteforce parameters and try many signs
 
 ## Installation
-i am make code to auto install modules only must have modules ``` importlib , pip ``` then tool will install all modules automatically <br>
-if found any error install from requirements.txt => Usage: sudo pip3 install -r requirements.txt
+i am make code to auto install modules only must have modules ``` importlib , pip ``` <br> 
+```bash 
+pip3 install importlib,pip 
+``` 
 
 ## Usage
 short arg     | long arg      | Description
