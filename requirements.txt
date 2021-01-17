@@ -1,6 +1,0 @@
-importlib
-pip
-requests
-argparse
-urllib3
-future
